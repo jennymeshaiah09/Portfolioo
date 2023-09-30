@@ -1,5 +1,26 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.container {
+  width: 90%; /* Use percentages for containers */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Use flexbox for flexible layouts */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
